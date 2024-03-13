@@ -12,4 +12,4 @@ To accomplish this, we need to open the Linux Terminal and type in the `ssh` com
 ssh bandit0@bandit.labs.overthewire.org -p 2200
 ```
 
-I will be adding the solutions to the rest of the levels in seperate files in clusters of 5, i.e. levels 1 to 5, 6 to 10... and so on.
+I will be adding the solutions to the rest of the levels in seperate folders in clusters of 5, i.e. levels 1 to 5, 6 to 10... and so on.
