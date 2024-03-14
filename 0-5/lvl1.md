@@ -11,4 +11,11 @@ While this may seem the same to the previous problem, we don't get what we are l
 This is because the command "cat -" in Unix-like operating systems is used to read data from the standard input (stdin) and display it on the standard output (stdout). 
 The hyphen "-" is used as a placeholder to represent stdin.
 
-This can be rectified by running the file in quotes, like this.
+This can be solved by putting the filename in quotes and adding the path, like this:
+
+```
+cat ./"-"
+```
+
+When running this command, you'll get the password for the next level:
+`rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`
