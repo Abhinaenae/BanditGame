@@ -5,7 +5,7 @@
 The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 ## Solution
-First, connect to bandit9 via `ssh bandit7@bandit.labs.overthewire.org -p 2220`.
+First, connect to bandit9 via `ssh bandit9@bandit.labs.overthewire.org -p 2220`.
 
 The `strings` command finds human-readable strings in files by printing sequences of printable characters. It is mainly used non-printable files.
 
