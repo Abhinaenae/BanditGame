@@ -5,7 +5,7 @@
 The password for the next level is stored in the file data.txt, which contains base64 encoded data
 
 ## Solution
-First, connect to bandit10 via `ssh bandit7@bandit.labs.overthewire.org -p 2220`.
+First, connect to bandit10 via `ssh bandit10@bandit.labs.overthewire.org -p 2220`.
 
 To understand the problem, we need to understand what base64 is. base64 is a binary-to-text encoding algorithm. It can usually be recognized by equal signs at the end of the data. Linux has a command called base64 that allows for encoding/decoding in base64.
 
