@@ -8,7 +8,7 @@ First, connect to bandit13 via `ssh bandit13@bandit.labs.overthewire.org -p 2220
 
 So far, we have logged onto a remote machine using `ssh` with a password. But, an alternative to using a password is public-key cryptography. The public key is on the remote host that allows access to the user who owns the private key. The `-i` flag allows you to log in with the private key.
 
-`scp` is a command that uses SSH to transfer data over the network. The syntax to get a file from a remote host: scp -P <port> <user>@<IP>:<remotefilepath> <localfilepath>. 
+`scp` is a command that uses SSH to transfer data over the network. The syntax to get a file from a remote host: `scp -P <port> <user>@<IP>:<remotefilepath> <localfilepath>`. 
 
 I logged into the server as bandit13 and found 'sshkey.private' in home directory. We can transfer the file to local since we know the location.
 
